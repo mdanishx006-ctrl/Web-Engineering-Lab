@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Danish - Bio Page</title>
+
+    <style>
+        .skip-link { position: absolute; left: 16px; top: -60px; }
+        .skip-link:focus { top: 14px; }
+
+        a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+            outline: 3px solid #0b5fff;
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <h1 id="greeting">Muhammad Danish</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#schedule" aria-current="location">Office Hours</a></li>
+                <li><a href="#feedback">Send Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I am Muhammad Danish, a student at Sir Syed CASE Institute of Technology, Islamabad.
+            I am currently in Semester 4 of BS Computer Science and I am interested in web development and learning new technologies.
+        </p>
+
+        <h3>My Hobbies</h3>
+        <ul>
+            <li>Gaming</li>
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Watching Tech Videos</li>
+        </ul>
+
+        <h3>Languages / Technologies I Know</h3>
+        <ol>
+            <li>English</li>
+            <li>Urdu</li>
+            <li>HTML</li>
+        </ol>
+
+        <p>
+            My favorite website:
+            <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+        </p>
+
+        <img src="profile.jpeg" alt="Photo of Muhammad Danish" width="300">
+
+        <h2>Recent Projects</h2>
+
+        <table border="1" cellpadding="6" cellspacing="0" width="700">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Technology Used</th>
+                <th>Completion Semester</th>
+            </tr>
+            <tr>
+                <td>Number Calculator</td>
+                <td>A simple calculator that performs basic arithmetic operations</td>
+                <td>C++</td>
+                <td>Semester 1</td>
+            </tr>
+            <tr>
+                <td>Student Record System</td>
+                <td>A console program to store and display student records</td>
+                <td>C++</td>
+                <td>Semester 2</td>
+            </tr>
+            <tr>
+                <td>Library Management System</td>
+                <td>A program to manage books, members and issue records</td>
+                <td>C++ / OOP</td>
+                <td>Semester 3</td>
+            </tr>
+            <tr>
+                <td>Assembly Language Lab Programs</td>
+                <td>Programs written and debugged using DEBUG in DOSBox</td>
+                <td>8086 Assembly</td>
+                <td>Semester 4</td>
+            </tr>
+        </table>
+
+        <h2>Education</h2>
+        <ol>
+            <li>BS Computer Science (Semester 4) - Sir Syed CASE Institute of Technology, Islamabad</li>
+        </ol>
+
+        <h2>Skills</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Used to create the structure of web pages.</dd>
+
+            <dt>C++</dt>
+            <dd>Used for writing programs with logic, loops, functions and object-oriented concepts.</dd>
+
+            <dt>Assembly 8086</dt>
+            <dd>Low-level programming used to understand how the processor and memory work.</dd>
+        </dl>
+
+        <h2>Contact Me</h2>
+        <p>
+            Email: <a href="mailto:mdanishx006@gmail.com">mdanishx006@gmail.com</a>
+        </p>
+        <p>
+            LinkedIn: <a href="https://www.linkedin.com/in/your-profile/" target="_blank">My LinkedIn Profile</a>
+        </p>
+
+        <section id="schedule">
+            <h2>Office Hours</h2>
+
+            <table>
+                <caption>Weekly office hours</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Instructor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td><time datetime="10:00">10:00</time>–<time datetime="11:00">11:00</time></td>
+                        <td>Lab Engineer</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td><time datetime="14:00">14:00</time>–<time datetime="15:00">15:00</time></td>
+                        <td>Course Instructor</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td><time datetime="09:00">09:00</time>–<time datetime="10:00">10:00</time></td>
+                        <td>Lab Engineer</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <figure>
+                <svg role="img" aria-labelledby="pin-title" width="24" height="24" viewBox="0 0 24 24">
+                    <title id="pin-title">Location pin</title>
+                    <path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="#c62828" />
+                </svg>
+                <figcaption>All office hours are held in Room 214.</figcaption>
+            </figure>
+        </section>
+
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="3" fill="#0b3d91" />
+        </svg>
+
+        <section id="feedback">
+            <h2>Send Feedback</h2>
+
+            <form>
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required aria-describedby="email-hint"><br>
+                    <span id="email-hint">We will only use this to reply to you.</span>
+                </p>
+                <fieldset>
+                    <legend>Topic</legend>
+                    <label>
+                        <input type="radio" name="topic" value="lab" checked> Lab content
+                    </label>
+                    <label>
+                        <input type="radio" name="topic" value="other"> Something else
+                    </label>
+                </fieldset>
+
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40"></textarea>
+                </p>
+
+                <button type="submit">Send feedback</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <address>Contact: <a href="mailto:mdanishx006@gmail.com">mdanishx006@gmail.com</a></address>
+        <p>
+    LinkedIn: <a href="https://www.linkedin.com/in/your-profile/" target="_blank">My LinkedIn Profile</a>
+</p>
+    </footer>
+
+</body>
+</html>
+
